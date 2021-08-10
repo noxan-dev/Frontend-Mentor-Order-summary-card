@@ -4,15 +4,18 @@ body {
   background-color: #e0e8ff;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
+  background-size: 100vw 40vh;
 }
 
 h1 {
   font-weight: 900;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 h2 {
   font-weight: 700;
   display: inline;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .cost {
@@ -36,6 +39,7 @@ h2 {
 
 .background {
   width: 100%;
+  background-size: auto;
 }
 
 .card {
@@ -82,6 +86,7 @@ h2 {
   display: inline-block;
   font-size: 16px;
   width: 75%;
+  box-shadow: 2px 2px #888888;
 }
 
 .payment-button:hover {
